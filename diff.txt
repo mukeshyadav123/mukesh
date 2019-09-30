@@ -1,0 +1,47 @@
+Common subdirectories: linux-3.16.71/arch and /home/mukesh/linux-3.16.71/arch
+Common subdirectories: linux-3.16.71/block and /home/mukesh/linux-3.16.71/block
+Only in linux-3.16.71/: .config
+Common subdirectories: linux-3.16.71/crypto and /home/mukesh/linux-3.16.71/crypto
+Common subdirectories: linux-3.16.71/Documentation and /home/mukesh/linux-3.16.71/Documentation
+Common subdirectories: linux-3.16.71/drivers and /home/mukesh/linux-3.16.71/drivers
+Common subdirectories: linux-3.16.71/firmware and /home/mukesh/linux-3.16.71/firmware
+Common subdirectories: linux-3.16.71/fs and /home/mukesh/linux-3.16.71/fs
+Common subdirectories: linux-3.16.71/include and /home/mukesh/linux-3.16.71/include
+Only in linux-3.16.71/: info
+Common subdirectories: linux-3.16.71/init and /home/mukesh/linux-3.16.71/init
+Common subdirectories: linux-3.16.71/ipc and /home/mukesh/linux-3.16.71/ipc
+Common subdirectories: linux-3.16.71/kernel and /home/mukesh/linux-3.16.71/kernel
+Common subdirectories: linux-3.16.71/lib and /home/mukesh/linux-3.16.71/lib
+diff linux-3.16.71/Makefile /home/mukesh/linux-3.16.71/Makefile
+855c855
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ taskinfo/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+Only in linux-3.16.71/: .missing-syscalls.d
+Common subdirectories: linux-3.16.71/mm and /home/mukesh/linux-3.16.71/mm
+Only in linux-3.16.71/: modules.builtin
+Only in linux-3.16.71/: modules.order
+Only in linux-3.16.71/: Module.symvers
+Common subdirectories: linux-3.16.71/net and /home/mukesh/linux-3.16.71/net
+Common subdirectories: linux-3.16.71/samples and /home/mukesh/linux-3.16.71/samples
+Common subdirectories: linux-3.16.71/scripts and /home/mukesh/linux-3.16.71/scripts
+Common subdirectories: linux-3.16.71/security and /home/mukesh/linux-3.16.71/security
+Only in linux-3.16.71/: signing_key.priv
+Only in linux-3.16.71/: signing_key.x509
+Common subdirectories: linux-3.16.71/sound and /home/mukesh/linux-3.16.71/sound
+Only in linux-3.16.71/: System.map
+Only in linux-3.16.71/: taskinfo
+Only in linux-3.16.71/: .tmp_kallsyms1.o
+Only in linux-3.16.71/: .tmp_kallsyms2.o
+Only in linux-3.16.71/: .tmp_System.map
+Only in linux-3.16.71/: .tmp_versions
+Only in linux-3.16.71/: .tmp_vmlinux1
+Only in linux-3.16.71/: .tmp_vmlinux2
+Common subdirectories: linux-3.16.71/tools and /home/mukesh/linux-3.16.71/tools
+Common subdirectories: linux-3.16.71/usr and /home/mukesh/linux-3.16.71/usr
+Only in linux-3.16.71/: .version
+Common subdirectories: linux-3.16.71/virt and /home/mukesh/linux-3.16.71/virt
+Only in linux-3.16.71/: vmlinux
+Only in linux-3.16.71/: .vmlinux.cmd
+Only in linux-3.16.71/: vmlinux.o
+Only in linux-3.16.71/: x509.genkey
